@@ -4,7 +4,7 @@ import click
 import struct
 from os import urandom
 
-# pycrypto
+# pycryptodome
 from Crypto.Cipher import AES
 
 _VERSION_LENGTH = 4
